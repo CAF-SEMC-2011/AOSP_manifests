@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="Vynikal/local_manifests" path="vendor/extra" />
 
   <remote name="github" fetch="https://github.com/" revision="refs/heads/cm-11.0" />
 
