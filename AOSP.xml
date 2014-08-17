@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Vynikal/local_manifests" path="vendor/extra" />
-
   <remote name="github" fetch="https://github.com/" revision="refs/heads/cm-11.0" />
 
   <remote name="cm" fetch="https://github.com/" review="review.cyanogenmod.org" />
+
+  <project name="Vynikal/CAF_manifests" path="vendor/extra" />
 
   <!-- LegacyXperia projects -->
   <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" />
