@@ -35,8 +35,8 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" />
-  <project name="LegacyXperia/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" />
-  <project name="LegacyXperia/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="github" />
 
   <!-- Remove not needed projects -->
   <remove-project name="platform/external/webkit" /> <!-- obsolete -->
