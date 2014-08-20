@@ -458,20 +458,20 @@
   <project name="Vynikal/android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="github" revision="OptKernel-rebase" />
 
   <!-- CAF projects with additional changes -->
-  <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" />
-  <project name="CyanogenMod/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="cm" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="cm" />
+  <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="cm" revision="cm-11.0" />
 
   <!-- CyanogenMod projects -->
-  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" />
-  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="cm" />
-  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="cm" />
-  <project name="CyanogenMod/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" remote="cm" />
-  <project name="CyanogenMod/android_bootable_diskinstaller" path="bootable/diskinstaller" remote="cm" />
-  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="cm" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_bootable_diskinstaller" path="bootable/diskinstaller" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="cm" revision="cm-11.0" />
 
   <!-- Other projects -->
   <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="cm" />
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="cm" revision="cm-11.0" />
 
 </manifest>
