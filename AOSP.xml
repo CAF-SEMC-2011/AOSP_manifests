@@ -464,5 +464,14 @@
 
   <!-- CyanogenMod projects -->
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" />
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="cm" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="cm" />
+  <project name="CyanogenMod/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" remote="cm" />
+  <project name="CyanogenMod/android_bootable_diskinstaller" path="bootable/diskinstaller" remote="cm" />
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="cm" />
+
+  <!-- Other projects -->
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="cm" />
 
 </manifest>
