@@ -2,7 +2,7 @@
 <manifest>
 
 <remote name="aosp"
-    fetch=".." />
+    fetch="https://android.googlesource.com/" />
 
 <remote name="github"
     fetch="https://github.com/" />
@@ -438,4 +438,5 @@
     <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+    <project path="packages/apps/SuperUser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
     </manifest>
