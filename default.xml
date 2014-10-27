@@ -9,10 +9,10 @@
 
 <remote name="linaro" 
 	fetch="git://android.git.linaro.org/"
-	review="review.android.git.linaro.org" />
+    review="review.android.git.linaro.org" />
 
 <remote name="linaro-other"
-	fetch="git://git.linaro.org/" />
+    fetch="git://git.linaro.org/" />
 
 <default revision="refs/tags/android-4.4.4_r2.0.1"
     remote="aosp"
