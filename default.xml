@@ -428,7 +428,7 @@
 
 	<!-- Other -->
     <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-11.0" />
-    <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery-cm" remote="github" revision="cm-11.0" />
+    <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
     <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="cm-11.0" />
     <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-11.0" />
     <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
