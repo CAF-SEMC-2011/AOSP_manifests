@@ -1,1 +1,1 @@
-This is manifest needed to build CAF Kitkat ROM for SEMC mogami.
+This is manifest needed to build AOSP Kitkat ROM for SEMC mogami.
