@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="aosp"
+    fetch=".." />
+
+<remote name="github"
+    fetch="https://github.com/" />
+
+<remote name="linaro" 
+    fetch="git://android.git.linaro.org/"
+    review="review.android.git.linaro.org" />
+
+<remote name="linaro-other"
+    fetch="git://git.linaro.org/" />
+
+<default revision="refs/tags/android-4.4.4_r2.0.1"
+    remote="aosp"
+    sync-j="4" />
+
+    <remove-project name="device/asus/deb" />
+    <remove-project name="device/asus/flo" />
+    <remove-project name="device/asus/flo-kernel" />
+    <remove-project name="device/asus/grouper" />
+    <remove-project name="device/asus/tilapia" />
+    <remove-project name="device/generic/mips" />
+    <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+    <remove-project name="device/generic/mini-emulator-mips" />
+    <remove-project name="device/generic/mini-emulator-x86" />
+    <remove-project name="device/generic/x86" />
+    <remove-project name="device/lge/hammerhead" />
+    <remove-project name="device/lge/hammerhead-kernel" />
+    <remove-project name="device/lge/mako" />
+    <remove-project name="device/lge/mako-kernel" />
+    <remove-project name="device/samsung/manta" />
+    <remove-project name="platform/external/yaffs2" />
+    <remove-project name="platform/external/zlib" />
+    <remove-project name="platform/external/jpeg" />
+    <remove-project name="platform/bootable/recovery" />
+    <remove-project name="platform/dalvik" />
+    <remove-project name="platform/hardware/qcom/keymaster" />
+    <remove-project name="platform/hardware/qcom/display"/>
+    <remove-project name="platform/hardware/qcom/audio" />
+    <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/qcom/bt" />
+    <remove-project name="platform/hardware/qcom/camera" />
+    <remove-project name="platform/hardware/ti/wlan" />
+    <remove-project name="platform/build" />
+    <remove-project name="platform/system/extras" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6"/>
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+    <remove-project name="platform/system/vold" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/bootable/diskinstaller" />
+    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/frameworks/opt/telephony" />
+    <remove-project name="platform/system/netd" />
+	<!-- Device trees -->
+    <project name="omnirom/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_haida" path="device/semc/haida" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_mango" path="device/semc/mango" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="android-4.4" />
+    <project name="omnirom/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="android-4.4" />
+
+	<!-- Kernel -->
+    <project name="Vynikal/android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="github" revision="OptKernel-rebase" />
+
+	<!-- Vendor -->
+    <project name="LegacyXperia/proprietary_vendor_semc" path="vendor/semc" remote="github" revision="cm-11.0" />
+
+        <!-- Manifest -->
+    <project name="CAF-SEMC-2011/AOSP_manifests" path="vendor/extra" remote="github" revision="kitkat" />
+
+	<!-- Other -->
+    <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-11.0" />
+    <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
+    <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="cm-11.0" />
+    <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-11.0" />
+    <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
+    <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.4.4" remote="linaro" />
+    <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+    <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-11.0" />
+    <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0"/>
+    <project path="build" name="CyanogenMod/android_build" remote="github" revision="cm-11.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+    <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-11.0" />
+    <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-11.0" />
+    <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-11.0" />
+    <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+    <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="cm-11.0" />
+    <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-11.0" />
+    <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" />
+    <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-11.0" />
+    <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="cm-11.0" />
+    <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-11.0" />
+    <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-11.0" />
+    <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-11.0" />
+    </manifest>
